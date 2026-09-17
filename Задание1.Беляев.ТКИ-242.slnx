@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Задание1.Беляев.ТКИ-242/Задание1.Беляев.ТКИ-242.vcxproj" />
+</Solution>
