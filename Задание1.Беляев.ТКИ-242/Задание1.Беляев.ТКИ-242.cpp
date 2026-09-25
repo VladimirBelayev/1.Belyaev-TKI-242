@@ -6,7 +6,7 @@
 
 int main() {
     // Переменная name хранит имя будущего текстового файла
-    std::string name = "output.txt";
+    std::string name = "name.txt";
 
     // Создаем и открываем текстовый файл с именем name для записи данных
     std::ofstream outfile(name);
