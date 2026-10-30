@@ -21,8 +21,7 @@ int main() {
     std::for_each(V2.begin(), V2.end(), [&M](const std::string& w) {
         if (!w.empty()) {
             char key = w.back(); // ключ группировки
-            auto hint = M.lower_bound(key);
-            M.insert(hint, { key, w });
+            M.insert({ key, w });
         }
         });
     // Сортируем V1
